@@ -1,6 +1,6 @@
 
 import './App.css';
-import { MainContainer } from './containers/mainContainer/MainContainer';
+import MainContainer from './containers/mainContainer/MainContainer';
 
 function App() {
   return (

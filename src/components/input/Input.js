@@ -3,7 +3,7 @@ import styles from './Input.module.css'
 
 export const Input = ({ onChange, onClick, value }) => {
     return (
-        <form className={styles.inputBox}>
+        <form className={styles.inputBox} onSubmit={onClick}>
             <input
                 className={styles.input}
                 type='text'

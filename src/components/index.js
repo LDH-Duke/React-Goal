@@ -1,2 +1,2 @@
 export {Input} from "./input/Input";
-export {Goal} from "./goal/Goal";
+export { Goal} from "./goal/Goal";
